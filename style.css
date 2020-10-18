@@ -6,7 +6,7 @@
 body {
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
-
+    
     background-color: rgb(39, 141, 209);
     
     width: 100%;
@@ -14,8 +14,7 @@ body {
 
     justify-items: center;
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-                 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 
@@ -38,24 +37,24 @@ img {
 button span  {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-#del {
-    width: 4vw;
-    height: 3vh;
-    min-width: 6vh;
+input#del {
+    height: 30px;
+    width: 44px;
     
 
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(243, 237, 237, 0.747);
     
     position: absolute;
-    top: 5%;
+    top: 6%;
     right: 1%;
     max-width: 40px;
     border: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-                 'Lucida Sans', Arial, sans-serif;
-    font-size: 0.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
     outline: none;
     border-radius: 8px;
     cursor: pointer;
@@ -64,14 +63,21 @@ span#placeholder {
     margin-top: -70%;
     position: fixed;
     
+
     transform: translate(-50%);
     font-size: 3.2rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #cor {
     position: absolute;
     top: 1%;
-    right: 1%
+    right: 1%;
+    height: 28px;
+    width: 40px;
+
+    border-radius: 8px;
 }
 
 
@@ -79,7 +85,7 @@ ul#messages  {
     font-size: 2.0rem;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 
     background-color: rgba(0, 0, 0, 0.425);
     width: 56%;
@@ -95,12 +101,10 @@ ul#messages  {
     transform: translate(-50%);
 
     border-radius: 8px;
-    line-height: 3.2rem;
+    line-height: 3.0rem;
 
     animation-duration: 100ms;
 }
 
-ul::after {
-    color: brown;
-}
+
 
