@@ -19,7 +19,8 @@ body {
 
 button,
 img {
-    height: 32vh;
+    width: 14vw;
+    min-width: 200px;
 
     background-color: transparent;
     cursor: pointer;
@@ -50,9 +51,9 @@ span#placeholder {
 }
 
 #cor {
-    position: fixed;
-    top: 2%;
-    right: 2%
+    position: absolute;
+    top: 1%;
+    right: 1%
 }
 
 
@@ -62,15 +63,19 @@ ul#messages  {
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
 
-    background-color: rgba(0, 0, 0, 0.342);
-    width: 26%;
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 56%;
+    max-width: 600px;
+
+    display: flex;
     flex-direction: column-reverse;
     
+
     text-align: center;
     margin-left: 50%;
     margin-top: 4%;
     transform: translate(-50%);
 
     border-radius: 8px;
+    line-height: 3.2rem;
 }
-
