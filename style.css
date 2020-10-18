@@ -41,7 +41,19 @@ button span  {
     text-align: center;
 
 }
+#del {
+    width: 3vw;
+    height: 4vh;
+    background-color: rgb(255, 255, 255);
+    
+    margin-top: 15%;
+    margin-left: -1%;
+    position: absolute;
 
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 span#placeholder {
     margin-top: -70%;
     position: fixed;
@@ -78,4 +90,11 @@ ul#messages  {
 
     border-radius: 8px;
     line-height: 3.2rem;
+
+    animation-duration: 100ms;
 }
+
+ul::after {
+    color: brown;
+}
+

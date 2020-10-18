@@ -23,9 +23,6 @@ var textbox = document.getElementById("textbox");
     var resultado = (newMessage )
     resultado.innerText = (d20)
     
-
-
-
     var audio = document.getElementById("audio");
     if (audio.paused) {
         audio.play()
@@ -35,3 +32,7 @@ var textbox = document.getElementById("textbox");
     console.log(d20); 
 });
 
+function del () {
+  const seletor = document.querySelector("ul")
+  seletor.removeChild(messages.lastElementChild);
+}
