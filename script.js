@@ -3,8 +3,6 @@ function changeColor () {
   document.body.style.backgroundColor = color;
 }
 
-
-
 var messages = document.getElementById("messages");
 var textbox = document.getElementById("textbox");
   
@@ -12,9 +10,6 @@ var textbox = document.getElementById("textbox");
     var dice20 = document.getElementById("placeholder")
     var d20 = Math.floor(Math.random () * 20) +1;
     dice20.innerHTML = d20
-    
-    
-
     
     var newMessage = document.createElement("ul");
     newMessage.innerHTML = textbox.value;
