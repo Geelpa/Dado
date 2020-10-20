@@ -36,3 +36,8 @@ function del () {
   const seletor = document.querySelector("ul")
   seletor.removeChild(messages.lastElementChild);
 }
+function delAll () {
+  const select = document.querySelector("ul")
+  while (select.firstChild) {
+    select.removeChild(select.firstChild)
+}}
