@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -47,16 +50,16 @@ input#del {
     width: 44px;
     
 
-    background-color: rgba(243, 237, 237, 0.747);
+    background-color: #EFEFEF;
     
     position: absolute;
     top: 6%;
     right: 1%;
     max-width: 40px;
     border: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 0.9rem;
     font-weight: bold;
-    font-size: 0.7rem;
     outline: none;
     border-radius: 8px;
     cursor: pointer;
@@ -66,16 +69,16 @@ input#delAll {
     height: 30px;
     width: 44px;
     
-    background-color: rgba(243, 237, 237, 0.747);
+    background-color: #EFEFEF;
     
     position: absolute;
     top: 11%;
     right: 1%;
     max-width: 40px;
     border: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     outline: none;
     border-radius: 8px;
     cursor: pointer;
